@@ -11,6 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
+        $aleatorio = rand(1,10);
+        echo $aleatorio;
         ?>
         <form>
             Intenta adivinar el número: <input type="text" name="numero">
