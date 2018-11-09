@@ -11,7 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+        $aleatorio = rand(1,10);
+        echo $aleatorio;
         ?>
     </body>
 </html>
