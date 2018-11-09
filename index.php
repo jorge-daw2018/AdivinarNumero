@@ -11,7 +11,9 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
         ?>
+        <form>
+            Intenta adivinar el número: <input type="text" name="numero">
+        </form>
     </body>
 </html>
