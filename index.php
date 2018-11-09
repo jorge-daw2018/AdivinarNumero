@@ -11,11 +11,14 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        $aleatorio = rand(1,10);
+        $aleatorio = rand(1, 10);
         echo $aleatorio;
+        echo "Errores solucionados. Putos punto y comas";
+        echo "Prueba dos xd ddd";
         ?>
         <form>
             Intenta adivinar el número: <input type="text" name="numero">
         </form>
+
     </body>
 </html>
